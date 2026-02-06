@@ -23,14 +23,6 @@ Generación binaria controlada de Windows
 ✔ Proceso de construcción reproducible y portátil
 ✔ Diseñado para uso profesional e institucional
 
-🧱 Arquitectura
-  Linux Host (Kali / Debian / Ubuntu)
- └── Wine (64-bit, isolated prefix)
-      └── Python 3.10.11 (Windows)
-           ├── PyInstaller
-           ├── requests
-           ├── psutil
-           └── pillow
 Todos los procesos de compilación se ejecutan dentro del entorno Windows emulado , lo que garantiza la compatibilidad nativa con los sistemas Windows.
 
 📦 Requisitos del sistema (Linux)
@@ -48,6 +40,7 @@ Las siguientes dependencias son necesarias y se instalan automáticamente:
 
 WinForge incluye un script de arranque automatizado que prepara el entorno completo.
 winforge_env_setup.sh
+
 
 ▶️ Ejecutar (configuración única)
 chmod +x winforge_env_setup.sh
@@ -68,6 +61,7 @@ sudo ./winforge_env_setup.sh
 Despues de la instalacion ejecuta la herramienta
 
 python3 winforge.py
+
 <img width="986" height="697" alt="image" src="https://github.com/user-attachments/assets/39885f92-24a9-4878-b8f2-14a93d9212b9" />
 
 
@@ -76,6 +70,8 @@ tool.py (codigo de la herramienta que se convertira en .exe)
 #toma en cuenta que la herramienta debe ser pensada para windows
     ejemplo en chatgpt (crear una herramienta de escaneo para windows en codigo python)
 Toman en cuenta que debes de configurar el directorio a guardar el .exe solo si te genera un error
+
+#Puedes añardirle un nombre personalizado y colocarle una imagen (.ico)
 
 🧾 Autor
 
