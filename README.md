@@ -1,2 +1,2 @@
-# WinForge
-Herramienta interna para crear ejecutables Windows desde Linux
+🏛️ WinForge Secure Builder
+Entorno de compilación de ejecutables de Windows controlado
